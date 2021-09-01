@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.app__wrapper {
+  width: 94%;
+  margin: auto;
+}
+
+.search_banner {
+  display: flex;
+  padding-top: 6vh;
+}
+
+@media screen and (max-width: 1200px){
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .app {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .app__wrapper {
+    width: 94%;
+    margin: auto;
+  }
+
+  .search_banner {
+    display: flex;
+    padding-top: 6vh;
+  }
+}
+@media screen and (max-width: 1024px){
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .app {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .app__wrapper {
+    width: 94%;
+    margin: auto;
+  }
+
+  .search_banner {
+    display: flex;
+    padding-top: 6vh;
+  }
+}
+@media screen and (max-width: 976px){
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .app {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .app__wrapper {
+    width: 94%;
+    margin: auto;
+  }
+
+  .search_banner {
+    display: flex;
+    padding-top: 6vh;
+  }
+}
+@media screen and (max-width: 767px){
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  
+  .app {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .app__wrapper {
+    width: 94%;
+    margin: auto;
+  }
+  
+  .search_banner {
+    display: flex;
+    flex-direction: column;
+    padding-top: 6vh;
+  }  
+}
+@media screen and (max-width: 501px){
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  
+  .app {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .app__wrapper {
+    width: 94%;
+    margin: auto;
+  }
+  
+  .search_banner {
+    display: flex;
+    flex-direction: column;
+    padding-top: 6vh;
+  }  
+}
+@media screen and (max-width: 460px){
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  
+  .app {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .app__wrapper {
+    width: 94%;
+    margin: auto;
+  }
+  
+  .search_banner {
+    display: flex;
+    flex-direction: column;
+    padding-top: 6vh;
+  }  
+}
+@media screen and (max-width: 400px){
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  
+  .app {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .app__wrapper {
+    width: 94%;
+    margin: auto;
+  }
+  
+  .search_banner {
+    display: flex;
+    flex-direction: column;
+    padding-top: 6vh;
+  }  
+}
+@media screen and (max-width: 370px){
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  
+  .app {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .app__wrapper {
+    width: 94%;
+    margin: auto;
+  }
+  
+  .search_banner {
+    display: flex;
+    flex-direction: column;
+    padding-top: 6vh;
+  }  
+} 
+@media (min-width: 300px) and (max-width: 330px){
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  
+  .app {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .app__wrapper {
+    width: 94%;
+    margin: auto;
+  }
+  
+  .search_banner {
+    display: flex;
+    flex-direction: column;
+    padding-top: 6vh;
+  }
+} 

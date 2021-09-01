@@ -1,0 +1,912 @@
+.dailycondition {
+    width: 20%;
+    color: #fff;
+}
+
+.dailycondition_section {
+    display: flex;
+    padding: 0 0 28px 10px;
+}
+
+.dailycondition_icon {
+    width: 15%;
+}
+
+.dailycondition_tex {
+    width: 85%;
+}
+
+.dailycondition_text > p {
+    font-size: 15px;
+}
+
+.dailycondition_text > h4 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+/* prossure_icon */
+.prossure_icon {
+    width: 15%;
+}
+
+.prossure_text {
+    width: 85%;
+}
+
+.prossure_text > p {
+    font-size: 15px;
+}
+
+.prossure_text > h4 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+/* change_icon */
+.change_icon {
+    width: 15%;
+}
+
+.dailycondition_text {
+    width: 85%;
+}
+
+/* windSpeed_icon */
+.windSpeed_icon {
+    width: 15%;
+}
+
+.windSpeed_text {
+    width: 85%;
+}
+
+.windSpeed_text > p {
+    font-size: 15px;
+}
+
+.windSpeed_text > h4 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 1200px){
+  .dailycondition {
+        width: 20%;
+        color: #fff;
+    }
+    
+    .dailycondition_section {
+        display: flex;
+        padding: 0 0 28px 10px;
+    }
+    
+    .dailycondition_icon {
+        width: 15%;
+        margin-right: 10px;
+    }
+    
+    .dailycondition_tex {
+        width: 85%;
+    }
+    
+    .dailycondition_text > p {
+        font-size: 15px;
+    }
+    
+    .dailycondition_text > h4 {
+        font-size: 25px;
+        font-weight: 700;
+    }
+    
+    /* prossure_icon */
+    .prossure_icon {
+        width: 15%;
+        margin-right: 10px;
+    }
+    
+    .prossure_text {
+        width: 85%;
+    }
+    
+    .prossure_text > p {
+        font-size: 15px;
+    }
+    
+    .prossure_text > h4 {
+        font-size: 22px;
+        font-weight: 700;
+    }
+    
+    /* change_icon */
+    .change_icon {
+        width: 15%;
+        margin-right: 10px;
+    }
+    
+    .dailycondition_text {
+        width: 85%;
+    }
+    
+    /* windSpeed_icon */
+    .windSpeed_icon {
+        width: 15%;
+        margin-right: 10px;
+    }
+    
+    .windSpeed_text {
+        width: 85%;
+    }
+    
+    .windSpeed_text > p {
+        font-size: 15px;
+    }
+    
+    .windSpeed_text > h4 {
+        font-size: 25px;
+        font-weight: 700;
+    }
+}
+@media screen and (max-width: 1024px){
+    .dailycondition {
+        width: 20%;
+        color: #fff;
+    }
+    
+    .dailycondition_section {
+        display: flex;
+        padding: 0 0 28px 10px;
+    }
+    
+    .dailycondition_icon {
+        width: 15%;
+        margin-right: 10px;
+    }
+    
+    .dailycondition_tex {
+        width: 85%;
+    }
+    
+    .dailycondition_text > p {
+        font-size: 15px;
+    }
+    
+    .dailycondition_text > h4 {
+        font-size: 25px;
+        font-weight: 700;
+    }
+    
+    /* prossure_icon */
+    .prossure_icon {
+        width: 15%;
+        margin-right: 10px;
+    }
+    
+    .prossure_text {
+        width: 85%;
+    }
+    
+    .prossure_text > p {
+        font-size: 15px;
+    }
+    
+    .prossure_text > h4 {
+        font-size: 22px;
+        font-weight: 700;
+    }
+    
+    /* change_icon */
+    .change_icon {
+        width: 15%;
+        margin-right: 10px;
+    }
+    
+    .dailycondition_text {
+        width: 85%;
+    }
+    
+    /* windSpeed_icon */
+    .windSpeed_icon {
+        width: 15%;
+        margin-right: 10px;
+    }
+    
+    .windSpeed_text {
+        width: 85%;
+    }
+    
+    .windSpeed_text > p {
+        font-size: 15px;
+    }
+    
+    .windSpeed_text > h4 {
+        font-size: 25px;
+        font-weight: 700;
+    }
+}
+@media screen and (max-width: 976px){
+    .dailycondition {
+        width: 20%;
+        color: #fff;
+    }
+    
+    .dailycondition_section {
+        display: flex;
+        padding: 0 0 28px 10px;
+    }
+    
+    .dailycondition_icon {
+        width: 15%;
+        margin-right: 10px;
+    }
+    
+    .dailycondition_tex {
+        width: 85%;
+    }
+    
+    .dailycondition_text > p {
+        font-size: 15px;
+    }
+    
+    .dailycondition_text > h4 {
+        font-size: 25px;
+        font-weight: 700;
+    }
+    
+    /* prossure_icon */
+    .prossure_icon {
+        width: 15%;
+        margin-right: 10px;
+    }
+    
+    .prossure_text {
+        width: 85%;
+    }
+    
+    .prossure_text > p {
+        font-size: 15px;
+    }
+    
+    .prossure_text > h4 {
+        font-size: 22px;
+        font-weight: 700;
+    }
+    
+    /* change_icon */
+    .change_icon {
+        width: 15%;
+        margin-right: 10px;
+    }
+    
+    .dailycondition_text {
+        width: 85%;
+    }
+    
+    /* windSpeed_icon */
+    .windSpeed_icon {
+        width: 15%;
+        margin-right: 10px;
+    }
+    
+    .windSpeed_text {
+        width: 85%;
+    }
+    
+    .windSpeed_text > p {
+        font-size: 15px;
+    }
+    
+    .windSpeed_text > h4 {
+        font-size: 25px;
+        font-weight: 700;
+    }
+}
+@media screen and (max-width: 767px){
+  .dailycondition {
+        width: 100%;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        position: relative;
+        top: 15vh;
+    }
+    
+    .dailycondition_section {
+        display: flex;
+        width: 33%;
+        height: 20vh;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .dailycondition_section:last-child {
+        display: none;
+    }
+
+    .dailycondition_icon {
+        width: 30%;
+        font-size: 30px !important;
+    }
+
+    .humidity_icon {
+        font-size: 30px !important;
+        width: 70px;
+        margin-right: 5px;
+    }
+    
+    .dailycondition_text {
+        width: 70%;
+    }
+    
+    .dailycondition_text > p {
+        font-size: 16px;
+    }
+    
+    .dailycondition_text > h4 {
+        font-size: 18px;
+        font-weight: 700;
+    }
+    
+    /* prossure_icon */
+    .prossure_icon {
+        width: 30%;
+        margin-right: 5px;
+    }
+
+    .tiWeatherShower_icon {
+        width: 70px;
+    }
+    
+    .prossure_text {
+        width: 70%;
+    }
+    
+    .prossure_text > p {
+        font-size: 16px;
+    }
+    
+    .prossure_text > h4 {
+        font-size: 18px;
+        font-weight: 700;
+    }
+    
+    /* change_icon */
+    .change_icon {
+        width: 30%;
+        margin-right: 5px;
+    }
+
+    .fiCloudRain_icon {
+        width: 70px;
+    }
+    
+    .dailycondition_text {
+        width: 70%;
+    }
+    
+    /* windSpeed_icon */
+    .windSpeed_icon {
+        width: 15%;
+    }
+    
+    .windSpeed_text {
+        width: 85%;
+    }
+    
+    .windSpeed_text > p {
+        font-size: 16px;
+    }
+    
+    .windSpeed_text > h4 {
+        font-size: 18px;
+    }
+} 
+@media screen and (max-width: 501px){
+    .dailycondition {
+        width: 100%;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        position: relative;
+        top: 9vh;
+    }
+    
+    .dailycondition_section {
+        display: flex;
+        align-items: center;
+        width: 33%;
+        height: 20vh;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .dailycondition_section:last-child {
+        display: none;
+    }
+
+    .dailycondition_icon {
+        width: 30%;
+    }
+
+    .humidity_icon {
+        font-size: 30px !important;
+        width: 45px;
+    }
+    
+    .dailycondition_text {
+        width: 70%;
+    }
+    
+    .dailycondition_text > p {
+        font-size: 16px;
+    }
+    
+    .dailycondition_text > h4 {
+        font-size: 18px;
+        font-weight: 700;
+    }
+    
+    /* prossure_icon */
+    .prossure_icon {
+        width: 30%;
+        margin-right: 5px;
+        width: 45px;
+    }
+
+    .tiWeatherShower_icon {
+        width: 25px;
+    }
+    
+    .prossure_text {
+        width: 70%;
+    }
+    
+    .prossure_text > p {
+        font-size: 16px;
+    }
+    
+    .prossure_text > h4 {
+        font-size: 18px;
+        font-weight: 700;
+    }
+    
+    /* change_icon */
+    .change_icon {
+        width: 30%;
+        margin-right: 5px;
+        width: 45px;
+    }
+
+    .fiCloudRain_icon {
+        width: 25px;
+    }
+    
+    .dailycondition_text {
+        width: 70%;
+    }
+    
+    /* windSpeed_icon */
+    .windSpeed_icon {
+        width: 15%;
+    }
+    
+    .windSpeed_text {
+        width: 85%;
+    }
+    
+    .windSpeed_text > p {
+        font-size: 16px;
+    }
+    
+    .windSpeed_text > h4 {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 460px){
+    .dailycondition {
+        width: 100%;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        position: relative;
+        top: 9vh;
+    }
+    
+    .dailycondition_section {
+        display: flex;
+        width: 33%;
+        height: 20vh;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .dailycondition_section:last-child {
+        display: none;
+    }
+
+    .dailycondition_icon {
+        width: 30%;
+    }
+
+    .humidity_icon {
+        font-size: 30px !important;
+        width: 25px;
+        margin-right: 5px;
+    }
+    
+    .dailycondition_text {
+        width: 70%;
+    }
+    
+    .dailycondition_text > p {
+        font-size: 16px;
+    }
+    
+    .dailycondition_text > h4 {
+        font-size: 18px;
+        font-weight: 700;
+    }
+    
+    /* prossure_icon */
+    .prossure_icon {
+        width: 30%;
+        margin-right: 5px;
+    }
+
+    .tiWeatherShower_icon {
+        width: 25px;
+    }
+    
+    .prossure_text {
+        width: 70%;
+    }
+    
+    .prossure_text > p {
+        font-size: 16px;
+    }
+    
+    .prossure_text > h4 {
+        font-size: 18px;
+        font-weight: 700;
+    }
+    
+    /* change_icon */
+    .change_icon {
+        width: 30%;
+        margin-right: 5px;
+    }
+
+    .fiCloudRain_icon {
+        width: 25px;
+    }
+    
+    .dailycondition_text {
+        width: 70%;
+    }
+    
+    /* windSpeed_icon */
+    .windSpeed_icon {
+        width: 15%;
+    }
+    
+    .windSpeed_text {
+        width: 85%;
+    }
+    
+    .windSpeed_text > p {
+        font-size: 16px;
+    }
+    
+    .windSpeed_text > h4 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .dailycondition {
+        width: 100%;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        position: relative;
+        top: 8vh;
+    }
+    
+    .dailycondition_section {
+        display: flex;
+        width: 33%;
+        height: 20vh;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .dailycondition_section:last-child {
+        display: none;
+    }
+
+    .dailycondition_icon {
+        width: 30%;
+    }
+
+    .humidity_icon {
+        font-size: 30px !important;
+        width: 25px;
+        margin-right: 5px;
+    }
+    
+    .dailycondition_text {
+        width: 70%;
+    }
+    
+    .dailycondition_text > p {
+        font-size: 16px;
+    }
+    
+    .dailycondition_text > h4 {
+        font-size: 18px;
+        font-weight: 700;
+    }
+    
+    /* prossure_icon */
+    .prossure_icon {
+        width: 30%;
+        margin-right: 5px;
+    }
+
+    .tiWeatherShower_icon {
+        width: 25px;
+    }
+    
+    .prossure_text {
+        width: 70%;
+    }
+    
+    .prossure_text > p {
+        font-size: 16px;
+    }
+    
+    .prossure_text > h4 {
+        font-size: 18px;
+        font-weight: 700;
+    }
+    
+    /* change_icon */
+    .change_icon {
+        width: 30%;
+        margin-right: 5px;
+    }
+
+    .fiCloudRain_icon {
+        width: 25px;
+    }
+    
+    .dailycondition_text {
+        width: 70%;
+    }
+    
+    /* windSpeed_icon */
+    .windSpeed_icon {
+        width: 15%;
+    }
+    
+    .windSpeed_text {
+        width: 85%;
+    }
+    
+    .windSpeed_text > p {
+        font-size: 16px;
+    }
+    
+    .windSpeed_text > h4 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 370px){
+    .dailycondition {
+        width: 100%;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        position: relative;
+        top: 8vh;
+        /* border: 1px solid red; */
+    }
+    
+    .dailycondition_section {
+        display: flex;
+        width: 33%;
+        height: 20vh;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .dailycondition_section:last-child {
+        display: none;
+    }
+
+    .dailycondition_icon {
+        width: 30%;
+    }
+
+    .humidity_icon {
+        font-size: 30px !important;
+        width: 25px;
+        margin-right: 5px;
+    }
+    
+    .dailycondition_text {
+        width: 70%;
+    }
+    
+    .dailycondition_text > p {
+        font-size: 16px;
+    }
+    
+    .dailycondition_text > h4 {
+        font-size: 18px;
+        font-weight: 700;
+    }
+    
+    /* prossure_icon */
+    .prossure_icon {
+        width: 30%;
+        margin-right: 5px;
+    }
+
+    .tiWeatherShower_icon {
+        width: 25px;
+    }
+    
+    .prossure_text {
+        width: 70%;
+    }
+    
+    .prossure_text > p {
+        font-size: 16px;
+    }
+    
+    .prossure_text > h4 {
+        font-size: 18px;
+        font-weight: 700;
+    }
+    
+    /* change_icon */
+    .change_icon {
+        width: 30%;
+        margin-right: 5px;
+    }
+
+    .fiCloudRain_icon {
+        width: 25px;
+    }
+    
+    .dailycondition_text {
+        width: 70%;
+    }
+    
+    /* windSpeed_icon */
+    .windSpeed_icon {
+        width: 15%;
+    }
+    
+    .windSpeed_text {
+        width: 85%;
+    }
+    
+    .windSpeed_text > p {
+        font-size: 16px;
+    }
+    
+    .windSpeed_text > h4 {
+        font-size: 18px;
+    }
+} 
+
+@media (min-width: 300px) and (max-width: 330px){
+    .dailycondition {
+        width: 100%;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        position: relative;
+        top: 8vh;
+        /* border: 1px solid red; */
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .dailycondition_section {
+        display: flex;
+        width: 33%;
+        height: 20vh;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .dailycondition_section:nth-child(3){
+        display: none;
+    }
+
+    .dailycondition_section:last-child {
+        display: none;
+    }
+
+    .dailycondition_icon {
+        width: 30%;
+    }
+
+    .humidity_icon {
+        font-size: 30px !important;
+        width: 25px;
+        margin-right: 5px;
+    }
+    
+    .dailycondition_text {
+        width: 70%;
+    }
+    
+    .dailycondition_text > p {
+        font-size: 16px;
+    }
+    
+    .dailycondition_text > h4 {
+        font-size: 18px;
+        font-weight: 700;
+    }
+    
+    /* prossure_icon */
+    .prossure_icon {
+        width: 30%;
+        margin-right: 5px;
+    }
+
+    .tiWeatherShower_icon {
+        width: 25px;
+    }
+    
+    .prossure_text {
+        width: 70%;
+    }
+    
+    .prossure_text > p {
+        font-size: 16px;
+    }
+    
+    .prossure_text > h4 {
+        font-size: 18px;
+        font-weight: 700;
+    }
+    
+    /* change_icon */
+    .change_icon {
+        width: 30%;
+        margin-right: 5px;
+    }
+
+    .fiCloudRain_icon {
+        width: 25px;
+    }
+    
+    .dailycondition_text {
+        width: 70%;
+    }
+    
+    /* windSpeed_icon */
+    .windSpeed_icon {
+        width: 15%;
+    }
+    
+    .windSpeed_text {
+        width: 85%;
+    }
+    
+    .windSpeed_text > p {
+        font-size: 16px;
+    }
+    
+    .windSpeed_text > h4 {
+        font-size: 18px;
+    }
+} 

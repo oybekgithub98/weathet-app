@@ -5,20 +5,22 @@ import axios from 'axios';
 import Search from './components/search/Search';
 import Dailycondition from './components/daily-condition/Dailycondition';
 import DayBanner from './components/daybanner/DayBanner';
+import { useStateValue } from './StateProvider';
 
 function App() {
+  const [searchValue] = useStateValue()
   const [data, setData] = useState([]);
   const fetchData = () => {
-    axios.get('https://api.weatherapi.com/v1/forecast.json?key=644f6ce0ca9e401ebb891832211707&q=Namangan&days=7&aqi=yes&alerts=yes')
+    axios.get(`https://api.weatherapi.com/v1/forecast.json?key=644f6ce0ca9e401ebb891832211707&q=${searchValue.searchValue === "" ? "Namangan" : searchValue.searchValue}&days=7&aqi=yes&alerts=yes`)
       .then(res => setData(res?.data))
   }
 
   useEffect(() => {
     fetchData();
-  }, [])
-  console.log(data)
+  }, [searchValue])
+  console.log(data);
 
-  const image = "https://hdoboi.kiev.ua/images/05.Jun.2019-pejzazh-dorogi-v-gorah-4k.jpg";
+  const image = "https://images.pexels.com/photos/33545/sunrise-phu-quoc-island-ocean.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260";
 
   return (
     <div style={{ backgroundImage: `url(${image})` }} className="app">
@@ -29,7 +31,7 @@ function App() {
           <Dailycondition humidity={data?.current?.humidity} airProssure={data?.current?.pressure_in} rain={data?.forecast?.forecastday?.[0]?.day?.daily_chance_of_rain} speed={data?.forecast?.forecastday?.[0]?.hour?.[0]?.wind_kph} />
         </div>
         <div className="days_banner">
-          <DayBanner />
+          <DayBanner forecas={data?.forecast?.forecastday} current={data?.current}/>
         </div>
       </div>
     </div>

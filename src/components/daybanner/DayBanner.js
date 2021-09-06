@@ -1,49 +1,18 @@
 import React from 'react';
 import './DayBanner.css';
 
-const DayBanner = () => {
+const DayBanner = ({forecas, current}) => {
     return (
         <div className="dayBanner">
-            <div className="card">
-                <p>3PM</p>
-                <h4>28<span>°C</span></h4>
-                <h5>Feels like 30°C</h5>
-            </div>
-            <div className="card">
-                <p>3PM</p>
-                <h4>28<span>°C</span></h4>
-                <h5>Feels like 30°C</h5>
-            </div>
-            <div className="card">
-                <p>3PM</p>
-                <h4>28<span>°C</span></h4>
-                <h5>Feels like 30°C</h5>
-            </div>
-            <div className="card">
-                <p>3PM</p>
-                <h4>28<span>°C</span></h4>
-                <h5>Feels like 30°C</h5>
-            </div>
-            <div className="card">
-                <p>3PM</p>
-                <h4>28<span>°C</span></h4>
-                <h5>Feels like 30°C</h5>
-            </div>
-            <div className="card">
-                <p>3PM</p>
-                <h4>28<span>°C</span></h4>
-                <h5>Feels like 30°C</h5>
-            </div>
-            <div className="card">
-                <p>3PM</p>
-                <h4>28<span>°C</span></h4>
-                <h5>Feels like 30°C</h5>
-            </div>
-            <div className="card">
-                <p>3PM</p>
-                <h4>28<span>°C</span></h4>
-                <h5>Feels like 30°C</h5>
-            </div>
+            {
+                forecas?.map(day => 
+                    <div  className="card">
+                        <p>{day.day.maxtemp_c}</p>
+                        <h4>{current?.temp_c}<span>°C</span></h4>
+                        <h5>Feels like {current?.feelslike_c}<span>°C</span></h5>
+                    </div>
+                )
+            }
         </div>
     )
 }

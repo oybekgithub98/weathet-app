@@ -5,20 +5,22 @@ import axios from 'axios';
 import Search from './components/search/Search';
 import Dailycondition from './components/daily-condition/Dailycondition';
 import DayBanner from './components/daybanner/DayBanner';
+import { useStateValue } from './StateProvider';
 
 function App() {
+  const [searchValue, dispatch] = useStateValue()
   const [data, setData] = useState([]);
   const fetchData = () => {
-    axios.get('https://api.weatherapi.com/v1/forecast.json?key=644f6ce0ca9e401ebb891832211707&q=Namangan&days=7&aqi=yes&alerts=yes')
+    axios.get(`https://api.weatherapi.com/v1/forecast.json?key=644f6ce0ca9e401ebb891832211707&q=${searchValue.searchValue === "" ? "Namangan" : searchValue.searchValue}&days=7&aqi=yes&alerts=yes`)
       .then(res => setData(res?.data))
   }
 
   useEffect(() => {
     fetchData();
-  }, [])
+  }, [searchValue])
   console.log(data)
 
-  const image = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlu0yUkYqwZpQzsqeK6B4juJYJJcN-vaVN3w&usqp=CAU";
+  const image = "https://images.pexels.com/photos/33545/sunrise-phu-quoc-island-ocean.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260";
 
   return (
     <div style={{ backgroundImage: `url(${image})` }} className="app">

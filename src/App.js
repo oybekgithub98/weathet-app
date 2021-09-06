@@ -18,7 +18,7 @@ function App() {
   }, [])
   console.log(data)
 
-  const image = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlu0yUkYqwZpQzsqeK6B4juJYJJcN-vaVN3w&usqp=CAU";
+  const image = "https://hdoboi.kiev.ua/images/05.Jun.2019-pejzazh-dorogi-v-gorah-4k.jpg";
 
   return (
     <div style={{ backgroundImage: `url(${image})` }} className="app">

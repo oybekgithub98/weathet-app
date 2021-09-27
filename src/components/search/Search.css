@@ -27,10 +27,12 @@
     flex: 1;
     text-indent: 20px;
     transition: all 0.3s;
+    box-shadow: 0 0 2px 3px rgba(0,0,0,0.2);
+    position: relative;
 }
 
 .form:hover{
-    box-shadow: 0 0 2px 3px rgba(0,0,0,0.2);
+    box-shadow: 0 0 0 0  transparent;
 }
 
 input {
@@ -39,21 +41,25 @@ input {
     background-color: transparent;
     font-size: 20px;
     border-radius: 20vh;
-    color: #fff;
+    color: rgb(0, 0, 0);
     height: 40px;
     flex: 1;
     text-indent: 20px;
     transition: all 0.3s;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
 }
 
 input::placeholder {
-    color: rgba(216, 211, 211, 0.801);
+    color: rgba(0, 0, 0, 0.801);
 }
 
 .search_icon {
     width: 60px;
     height: 40px;
-    color: rgba(216, 211, 211, 0.801);
+    color: rgba(255, 255, 255, 0.801);
     font-size: 3px;
     cursor: pointer;
     position: absolute;
